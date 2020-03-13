@@ -1,0 +1,47 @@
+header#main-header {
+  width: 100%;
+  height: 78px;
+  background: #0e314a;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  align-self: initial;
+  margin-right: 5%;
+  flex-grow: auto;
+}
+
+#buscar {
+  display: flex;
+  align-self: initial;
+  margin-left: 2%;
+  flex-grow: auto;
+  width: 50%;
+  height: 68%;
+  border-radius: 4px;
+  outline: unset;
+  border-color: #f2f2f2;
+  padding: 10px;
+  color: #0e314a;
+  border: 0;
+}
+
+#buscar::placeholder {
+  /* Chrome, Safari, Opera */
+  color: #bfbfbf;
+  margin-left: 2%;
+  font-size: 16px;
+}
+
+#cart {
+  display: flex;
+  flex-grow: unset;
+  outline: unset;
+  color: #f8f9fa;
+}

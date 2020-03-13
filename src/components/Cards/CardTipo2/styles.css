@@ -1,0 +1,41 @@
+#card2 {
+  width: 16rem;
+  margin-top: 2%;
+  height: 230px;
+  margin-left: 4%;
+}
+
+#card2-img {
+  height: 105px;
+}
+
+#card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+#card2-title {
+  font-size: 16px;
+}
+
+#codigo {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#div-ico-preco {
+  width: 105%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#preco {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#cart_add {
+  opacity: 0.7;
+}

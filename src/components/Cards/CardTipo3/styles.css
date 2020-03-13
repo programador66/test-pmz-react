@@ -1,0 +1,46 @@
+#container {
+  display: flex;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 20px;
+  width: 270px;
+  height: 170px;
+  justify-content: flex-start;
+  margin-left: 4%;
+}
+
+#container-ft-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#promo {
+  padding: 0%;
+  margin-top: 0%;
+  background-color: teal;
+  color: #fff;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 45%;
+  font-weight: 500;
+  padding: 3px 0;
+}
+
+#container-desc {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#cart_add-card3 {
+  align-self: flex-end;
+  margin-bottom: 8%;
+  margin-left: 4%;
+}
