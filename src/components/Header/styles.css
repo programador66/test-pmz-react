@@ -15,6 +15,7 @@ header#main-header {
   align-self: initial;
   margin-right: 5%;
   flex-grow: auto;
+  cursor: pointer;
 }
 
 #buscar {

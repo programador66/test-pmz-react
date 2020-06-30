@@ -37,5 +37,6 @@
 }
 
 #cart_add {
+  cursor: pointer;
   opacity: 0.7;
 }
